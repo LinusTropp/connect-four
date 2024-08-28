@@ -24,7 +24,7 @@ export default class Game {
     }
     
   } 
-  private createPlayers() {
+  createPlayers() {
     console.clear();
     console.log("Connect Four");
 
