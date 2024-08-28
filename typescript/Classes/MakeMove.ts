@@ -1,5 +1,13 @@
+import Player from "./Player.js";
 export default class MakeMove {
-  constructor() {
+  
+  player: Player;
+  column: number;
+
+
+  constructor(player: Player, column: number) {
+    this.player = player;
+    this.column = column;
   
   }
   
