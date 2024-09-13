@@ -15,8 +15,8 @@ export default class GameBoard {
     this.gameOver = false;
   }
 
-  render() {
-    let line = '\n' + '-'.repeat(29) + '\n';
+  render(){
+    let line = '\n' + '-'.repeat(37) + '\n';
     console.log(
       line + this.matrix.map(row =>
         row.map(column => ` | ${column} `).join('')
